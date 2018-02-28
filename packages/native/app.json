@@ -1,10 +1,16 @@
 {
   "expo": {
-    "sdkVersion": "25.0.0",
+    "name": "Native",
+    "entryPoint": "./AppEntry.js",
     "ignoreNodeModulesValidation": true,
     "packagerOpts": {
       "config": "rn-cli.config.js",
       "projectRoots": ""
-    }
+    },
+    "privacy": "unlisted",
+    "sdkVersion": "25.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait"
   }
 }

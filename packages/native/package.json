@@ -9,8 +9,8 @@
     "react-native-scripts": "1.11.1",
     "react-test-renderer": "16.2.0"
   },
-  "main": "./AppEntry.js",
   "scripts": {
+    "prestart": "node link-workspaces.js",
     "start": "react-native-scripts start",
     "eject": "react-native-scripts eject",
     "android": "react-native-scripts android",
@@ -23,6 +23,6 @@
   "dependencies": {
     "expo": "^25.0.0",
     "react": "16.2.0",
-    "react-native": "0.52.0"
+    "react-native": "https://github.com/expo/react-native/archive/sdk-25.0.0.tar.gz"
   }
 }
